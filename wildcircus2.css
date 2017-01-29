@@ -1,0 +1,401 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+header h1{
+    font-family: 'Londrina Shadow', cursive;
+    font-size:80px;
+    font-weight:bolder;
+    color:red;
+    text-align:center;
+}
+
+header{
+    background: black;
+    height:100px;
+}
+
+.zik{
+    position: relative;
+    text-align: center;
+    
+}
+
+body{
+    font-family:'Century Gothic', Calibri, sherif;
+    font-size:13px;
+    margin:0px;
+    padding: 0px;
+    background: black;
+}
+
+.hr{
+    width: 50%;
+    margin: auto;
+}
+
+.paper{
+    background: url("img/chapimod2.jpg") no-repeat center fixed;
+    background-size: cover;    
+}
+
+
+
+.cirquechamp{
+        display: block;
+        overflow: hidden;
+        border:5px solid white;
+        border-radius: 15px 15px 15px 15px;
+        max-width: 500px;
+        margin: auto;
+}
+
+.presentation{
+    font-family: 'Aclonica', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    padding: 20px;
+}
+
+.theshows{
+    font-family: 'Aclonica', sans-serif;
+    margin-top: 110px;
+    margin-bottom: 0px;
+    height: auto;
+    color:white;
+}
+.theshows h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border: double;
+    border-radius: 15px 15px 15px 15px;
+    width: 10%;
+    padding: 30px;
+    margin: auto;
+}
+    
+    
+.elastic{
+    height: 500px;
+    color: white;
+}
+.elastic h2{
+    padding: 40px;
+    text-decoration: underline;
+    color: white;
+}
+.prestelast {
+    
+    float: right;
+    border: 20px dotted white;
+    border-radius: 50%;
+    margin-right: 300px;
+    
+    
+    
+}
+.gum{
+   border: 3px solid white;
+   border-right: none;
+   border-radius: 15px 15px 15px 15px;
+   position: relative;
+   left: 40px;
+   height: 264px;
+   margin: auto;
+}
+.peng{
+    border: 3px solid white;
+    border-left: none;
+    border-radius: 0px 15px 15px 0px;
+    position: relative;
+    left: 20px;
+    height: 264px;
+    margin: auto;
+    
+}
+
+
+.crazy{
+    height: 500px;
+    /*background-color: green;*/
+    color: white;
+}
+.crazy h2{
+    padding:40px;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+.clown{
+    position: relative;
+    left: 40px;
+    border: 3px solid white;
+    border-radius: 15px 15px 15px 15px;
+}
+.wildclown{
+    float: right;
+    margin-right: 300px;
+    border: 20px dotted white;
+    border-radius: 50%;
+}
+
+.nail{
+    height: 500px;
+   /* background-color: purple;*/
+    color: white;
+}
+.nail h2{
+    padding:40px;
+    text-decoration: underline;
+    margin-left: 65px;
+}
+.presetnail {
+    float: right;
+    margin-right: 300px;
+    border: 20px dotted white;
+    border-radius: 50%;
+}
+.clou{
+    position: relative;
+    left:40px;
+    border: 3px solid white;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.ev{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+#events{
+    height: 1000px;
+    padding: 100px;
+}
+
+
+
+
+
+
+
+
+
+/*menu*/
+nav{ width: 100%;
+
+     
+}
+
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+    
+ nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color:#FFF;
+    text-transform:uppercase;
+    font-size: 15px;
+ }
+ 
+ .table{
+    display: table;
+    margin:0 auto;
+ }
+ 
+ .menu-ind:hover{
+    border-top:5px solid #1cff00;
+    background-color: rgba(64,200,130,0.1); 
+}
+
+.menu-shows:hover{
+    border-top:5px solid #f1dc4f;
+    background-color:rgba(241,211,79,0.15);
+}
+
+.menu-events:hover{
+    border-top:5px solid #0070BB;
+    background-color:rgba(000,112,192,0.15);
+    
+}
+
+.menu-gallery:hover{
+    border-top:5px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+}
+
+.menu-contact:hover{
+    border-top:5px solid #921cd0;
+    background-color: rgba(146,28,208,0.15);
+    
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+/*fin de menu*/
+
+
+
+
+/*contact*/
+.cssform p {
+width: 300px;
+clear: left;
+margin: 0;
+padding: 5px 0 8px 0;
+padding-left: 155px; 
+border-top: 1px dashed gray;
+height: 1%;
+color:white;
+}
+
+.cssform label{
+font-weight: bold;
+float: left;
+margin-left: -155px; 
+width: 150px; 
+}
+
+.cssform input[type=&quot;text&quot;]{ /*width of text boxes. IE6 does not understand this attribute*/
+width: 180px;
+}
+
+.cssform textarea{
+width: 250px;
+height: 150px;
+}
+
+#user1{
+    width: 25px;
+}
+
+
+#myform {
+    width: 455px;
+    margin: auto;
+    color:white;
+}
+.cth2{
+   text-align: center;
+   padding: 30px;
+}
+/*fin de contact*/
+
+/*testslideeeeeeeeeeee*/
+.jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('img/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
+        
+        #jssor_1{
+    position:relative;
+    margin:0 auto;
+    top:100px;
+    left:0px;
+    width:600px;
+    height:300px;
+    overflow:hidden;
+    visibility:hidden;
+}
+
+    .slide h1{
+    font-family: 'Aclonica', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border: double;
+    border-radius: 15px 15px 15px 15px;
+    width: 10%;
+    padding: 30px;
+    margin: auto;
+}
+
+/*sect slide*/
+.slide{
+    height: 700px;
+    padding: 100px;
+}
+
+
+/*fin de test slide*/
+
+
+
+
+
+
+
+
+footer{
+    color: white;
+    text-align:center;
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:80px;
+}
+
+.retourhome{
+    font-size: 25px;
+}
