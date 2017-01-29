@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+    <html lang="fr-FR">
+        <head>
+            <title>WILD CIRCUS</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale="1.0">
+            <meta name="description"content="wild circus">
+            <link rel="stylesheet" href="wildcircus2.css">
+            <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+            <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type='text/css' >
+            <script src="js/jssor.slider-22.1.8.min.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                
+            jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 600);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+
+
+  
+        </head>
+        <body>
+            
+            <header>
+                <div id="home">
+                    <h1>WILD CIRCUS</h1>
+                </div>
+            </header>
+    
+    <section class="present">
+    
+    
+                     <div class="banner">
+                        <img class="cirquechamp"src="img/cirquechamp.jpg" alt="wild circus">
+                     </div>
+                        
+    </section>                   
+            
+            
+            <nav>
+                <div class="table">
+                    <ul>
+                        <li class="menu-ind">
+                          <a href="#home">HOME</a>
+                        </li>
+                        <li class="menu-shows">
+                          <a href="#shows">THE SHOWS</a>
+                        </li>
+                        <li class="menu-events">
+                          <a href="#events">EVENTS</a>
+                        </li>
+                        <li class="menu-gallery">
+                          <a href="#gallery">GALLERY</a>
+                        </li>
+                        <li class="menu-contact">
+                          <a href="#contact">CONTACT</a>
+                        </li>
+    
+    
+                    </ul>
+                </div>
+            </nav>
+            
+            <section class="presentation">
+                <h1>Welcome to the WILD CIRCUS !</h1>
+                <p>Need chills, startles? No doubt, it's the good place.</p>
+                <p>A show with suspense guaranteed, you will not leave the marquee without looking behind you!</p> 
+                
+            </section>
+            
+            <article class="paper">
+                
+            <section id="shows" class="theshows">
+                <h1>THE SHOWS</h1>
+            <section class="elastic">
+                <h2>THE ELASTIC MAN & HIS WIFE PENGUIN</h2>
+                <img class="gum" src="img/elasticman.jpg" alt="The elastic man">
+                <img class="peng" src="img/fping2.jpg" alt="The penguin woman ">
+                <img class="prestelast" src="img/prestelast.jpg" alt="texte sur fond noir">
+            </section>
+            <hr class="hr">
+            <section class="crazy">
+                <h2>THE WILD CLOWN</h2>
+                <img class="clown" src="img/clown2.jpg" alt="clowns">
+                <img class="wildclown" src="img/wildclown.jpg" alt="clown attaché">
+            </section>
+             <hr class="hr">
+            <section class="nail">
+                <h2>THE NAIL EATER</h2>
+                <img class="clou" src="img/nose.jpg" alt="nail eater">
+                <img class="presetnail" src="img/presetnail.jpg" alt="texte sur fond noir">
+            </section>
+       </section>
+            
+            
+            <section id="events">
+                <img class="ev" src="img/events03.jpg">
+            </section>
+        
+        
+        
+        
+        <!--test slideeeeeeeeeeeeeeeeeeeeeeee-->
+<section id="gallery" class="slide">
+    <h1>GALLERY</h1>
+   <div id="jssor_1" style="position:relative;margin:0 auto;top:50px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+ 
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/lifecircus.jpg" />
+            </div>
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
+            <div>
+                <img data-u="image" src="img/c2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/c3.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/c4.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/c5.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/c1b.jpg"/>
+            </div>
+            <div>
+                <img data-u="image" src="img/c6.jpg"/>
+            </div>
+            
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    </div>
+
+</section>
+
+            
+  <!--fin de test slideeeeeeeeeeeeeeeeeeeeeee-->
+    
+       </article>
+        
+        <!--contact-->
+        
+            <section id="contact"class="contact">
+                <form id="myform" class="cssform" action="">
+                    <div class="cth2">
+                    <h2>CONTACT & BOOKING</h2>
+                    </div>
+	<p><label for="user">Name :</label>
+	<input type="text" id="user" value="" /></p>
+
+	<p><label for="emailaddress">Email :</label>
+	<input type="text" id="emailaddress" value="" /></p>
+
+	<p><label for="comments">Message :</label>
+	<textarea id="comments" rows="5" cols="25"></textarea></p>
+
+	
+    <p><label for="user">Number of children ticket:</label>
+	<input type="text" id="user1" value="" /></p>
+    <p><label for="user">Number of adult ticket:</label>
+	<input type="text" id="user1" value="" /></p>
+
+	<p><label for="comments">Booking show:</label>
+	<input type="checkbox" name="booking" /> The elastic man & his wife penguin
+	<input type="checkbox" name="booking" class="threepxfix" /> The wild clown
+	<input type="checkbox" name="booking" class="threepxfix" /> The nail eater</p>
+
+	<p><label for="terms">General conditions accepted</label>
+	<input type="checkbox" id="terms" class="boxes" /></p>
+
+	<p><div style="margin-left: 150px;">
+		<input type="submit" value="Send" />
+		<input type="reset" value="Reset" />
+	</div></p>
+</form>
+                
+                
+            </section>
+            <!--fin de contact-->
+            
+            
+			<!-- slide-->
+            
+        <script type="text/javascript">jssor_1_slider_init();</script>
+
+            
+        
+            
+
+            <!--fin de slide-->
+        </body>
+        
+    <footer>
+        <div class="zik">
+                    <audio autoplay="autoplay" controls="controls" preload="auto" loop>
+                    <source src="ziksusp.mp3" type="audio/mp3" />
+                    </audio>
+                    </div>
+        <ul>
+                        <li class="retourhome">
+                          <a class="retourhome" href="#home">HOME</a>
+                        </li>
+        </ul>
+        
+        <p>Copyright &copy; -2017- </p>
+    </footer>
+        
+        
+        
+    </html>
